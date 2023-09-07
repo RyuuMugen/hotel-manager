@@ -1,0 +1,15 @@
+create database qlks;
+
+use qlks;
+
+create table login(username varchar(40), password varchar(40));
+
+insert into login values('admin','12345');
+ 
+create table customer(Id_number INT, name varchar(30), gender varchar(30), country varchar(30), room_number varchar(30), status varchar(30), deposit INT);
+
+create table room(room_number varchar(20), availability varchar(20), clean_status varchar(20), price INT, bed_type varchar(30));
+
+create table employee(name varchar(30), age INT, gender varchar(30), job varchar(30), salary INT, phone INT, aadhar varchar(30), email varchar(40));
+
+
